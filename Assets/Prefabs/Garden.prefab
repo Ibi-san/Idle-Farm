@@ -53,6 +53,7 @@ MonoBehaviour:
   _harvested: {fileID: 3393633914386820892}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &540154608515891592
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,6 +107,7 @@ MonoBehaviour:
   _harvested: {fileID: 6846489981651581482}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &852436446700852924
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,6 +161,7 @@ MonoBehaviour:
   _harvested: {fileID: 3437596008968584698}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &968220892253221548
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,6 +215,7 @@ MonoBehaviour:
   _harvested: {fileID: 2143003940918430057}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &1196561583434950498
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,6 +269,7 @@ MonoBehaviour:
   _harvested: {fileID: 6143722524686218862}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &1252053788423425104
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +323,7 @@ MonoBehaviour:
   _harvested: {fileID: 7856190686436463293}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &1796799070982643551
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +377,7 @@ MonoBehaviour:
   _harvested: {fileID: 3683824314394077201}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &1952096922989865427
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,6 +431,7 @@ MonoBehaviour:
   _harvested: {fileID: 8640296193841919299}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &2069412162334873031
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +485,7 @@ MonoBehaviour:
   _harvested: {fileID: 3620973048966221188}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &2131608507979430112
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +539,7 @@ MonoBehaviour:
   _harvested: {fileID: 697307884673809542}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &2761824542396842724
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,6 +593,7 @@ MonoBehaviour:
   _harvested: {fileID: 8893170660191705125}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &4133568459014950094
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +647,7 @@ MonoBehaviour:
   _harvested: {fileID: 7511090866429890825}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &4165404401093111243
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,6 +701,7 @@ MonoBehaviour:
   _harvested: {fileID: 535193767301621031}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &4598841261010713567
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,6 +755,7 @@ MonoBehaviour:
   _harvested: {fileID: 6939491141082935018}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &6062748531446571264
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +809,7 @@ MonoBehaviour:
   _harvested: {fileID: 8418821958080827899}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &6204058269211463469
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,6 +863,7 @@ MonoBehaviour:
   _harvested: {fileID: 6381951910004485669}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &6263218095937503039
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,6 +917,7 @@ MonoBehaviour:
   _harvested: {fileID: 3011061193294862163}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &6280268227169057729
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,6 +971,7 @@ MonoBehaviour:
   _harvested: {fileID: 8217078338439876461}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &7076472261687800590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,6 +1025,7 @@ MonoBehaviour:
   _harvested: {fileID: 5942669680331296906}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &7363643949702733067
 GameObject:
   m_ObjectHideFlags: 0
@@ -1060,6 +1079,7 @@ MonoBehaviour:
   _harvested: {fileID: 4254331017183391277}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &7386130176640162402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1113,6 +1133,7 @@ MonoBehaviour:
   _harvested: {fileID: 1318844810304665102}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &7566679886973827935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,6 +1187,7 @@ MonoBehaviour:
   _harvested: {fileID: 5816329479177414916}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &7660750154432732859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,6 +1241,7 @@ MonoBehaviour:
   _harvested: {fileID: 4364995557009041048}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &7783645746205830732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,6 +1295,7 @@ MonoBehaviour:
   _harvested: {fileID: 8347123946476956844}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &8332659051136320663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,6 +1349,7 @@ MonoBehaviour:
   _harvested: {fileID: 5254950866978766507}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &8340074504839546761
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,6 +1403,7 @@ MonoBehaviour:
   _harvested: {fileID: 1036886439136618976}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &8914391129592669797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,6 +1457,7 @@ MonoBehaviour:
   _harvested: {fileID: 3519582719314194041}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &8922648282546699364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,6 +1511,7 @@ MonoBehaviour:
   _harvested: {fileID: 7107569718628858027}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &9187537426886567043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,6 +1565,7 @@ MonoBehaviour:
   _harvested: {fileID: 201338929158175600}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1 &9195213297333046504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1590,6 +1619,7 @@ MonoBehaviour:
   _harvested: {fileID: 1628693084964886487}
   _timeToGrow: 5
   IsHarvested: 0
+  _wheatHay: {fileID: 5443909069984621356, guid: 923b1ee784f70b145b7e08907dff4835, type: 3}
 --- !u!1001 &252244186696835383
 PrefabInstance:
   m_ObjectHideFlags: 0
