@@ -91,3 +91,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 332746fa544780c41bb932d9c779def8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _harvestFX: {fileID: 0}

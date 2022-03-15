@@ -8,8 +8,7 @@ public class Selling : MonoBehaviour
     private WheatCollecting _wheatCollecting;
 
     [SerializeField] private GameObject _barn;
-    private float _haySpeed = 5f;
-
+    private float _haySpeed = 2f;
 
     private void Start()
     {
@@ -19,7 +18,10 @@ public class Selling : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("SellZone") && _wheatCollecting.CurrentWheatCollected != 0)
+        {
             _wheatCollecting.ChangeCollectedWheat(-1);
+        }
+            
         if (other.CompareTag("Hay"))
         {
             other.transform.Translate(Vector3.left * _haySpeed * Time.deltaTime);

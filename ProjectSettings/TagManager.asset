@@ -7,6 +7,7 @@ TagManager:
   - Scythe
   - Hay
   - SellZone
+  - MoneyScore
   layers:
   - Default
   - TransparentFX

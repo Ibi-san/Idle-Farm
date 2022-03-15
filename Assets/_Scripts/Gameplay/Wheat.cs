@@ -23,6 +23,7 @@ public class Wheat : MonoBehaviour
 
     private ObjectPool objectPool;
 
+    [SerializeField] private ParticleSystem _harvestFX;
 
     public enum WheatState
     {
@@ -74,7 +75,8 @@ public class Wheat : MonoBehaviour
         SwitchState(WheatState.Harvested);
         _growthIndex = -1;
         IsHarvested = true;
-        objectPool.SpawnFromPool("WheatHay", transform.position + Vector3.up, Quaternion.identity);
+        objectPool.SpawnFromPool("WheatHay", transform.position + Vector3.up, Quaternion.identity, gameObject);
+        _harvestFX.Play();
     }
 
     private void SwitchState(WheatState stateToSwitch)

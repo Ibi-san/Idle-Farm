@@ -5,7 +5,7 @@ using System.Linq;
 
 public class Garden : MonoBehaviour
 {
-    [SerializeField] private List<Wheat> _plants = new List<Wheat>();
+    [SerializeField] private List<Wheat> _wheatList = new List<Wheat>();
     public bool ReadyToGrow = true;
     private Wheat _wheat;
 
@@ -14,12 +14,12 @@ public class Garden : MonoBehaviour
         foreach (Transform child in transform)
         {
             _wheat = child.GetComponent<Wheat>();
-            _plants.Add(_wheat);
+            _wheatList.Add(_wheat);
         }
     }
 
     private void Update()
     {
-        ReadyToGrow = _plants.All(g => g.IsHarvested == true);
+        ReadyToGrow = _wheatList.All(g => g.IsHarvested == true);
     }
 }

@@ -17,6 +17,6 @@ public class MoneyScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _tmp.text = "$" + _moneyManagement.CurrentMoney.ToString();
+        _tmp.text = _moneyManagement.CurrentMoney.ToString();
     }
 }

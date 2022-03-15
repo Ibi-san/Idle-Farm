@@ -5,7 +5,7 @@ using UnityEngine;
 public class Harvesting : MonoBehaviour
 {
     private Wheat _wheat;
-
+    
     private void Start()
     {
         _wheat = GetComponentInParent<Wheat>();
@@ -15,5 +15,6 @@ public class Harvesting : MonoBehaviour
     {
         if (other.CompareTag("Scythe"))
             _wheat.Harvest();
+            
     }
 }
