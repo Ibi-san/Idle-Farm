@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+[RequireComponent(typeof(TMP_Text))]
 public class MoneyScore : MonoBehaviour
 {
     [SerializeField] private TMP_Text _tmp;

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
@@ -8,17 +6,6 @@ public class MoneyTransfer : MonoBehaviour
     [SerializeField] private float _duration;
     [SerializeField] private GameObject _money;
     private GameObject _target;
-
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     private void OnEnable()
     {

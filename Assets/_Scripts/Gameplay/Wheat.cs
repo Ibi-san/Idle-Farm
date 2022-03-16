@@ -21,7 +21,7 @@ public class Wheat : MonoBehaviour
     private Garden _garden;
     public bool IsHarvested;
 
-    private ObjectPool objectPool;
+    private ObjectPool _objectPool;
 
     [SerializeField] private ParticleSystem _harvestFX;
 
@@ -34,7 +34,7 @@ public class Wheat : MonoBehaviour
 
     private void Start()
     {
-        objectPool = ObjectPool.Instance;
+        _objectPool = ObjectPool.Instance;
         SwitchState(WheatState.Seed);
         IsHarvested = true;
         _growTimer = _timeToGrow;
@@ -51,23 +51,19 @@ public class Wheat : MonoBehaviour
     private void Grow()
     {
         _growthIndex++;
+        _growTimer = _timeToGrow;
 
         if (_growthIndex == 0 && _wheatState == WheatState.Harvested)
-        {
             SwitchState(WheatState.Seed);
-        }
 
         if (_growthIndex >= _maxGrowthIndex / 2 && _wheatState == WheatState.Seed)
-        {
             SwitchState(WheatState.Seedling);
-        }
 
         if (_growthIndex >= _maxGrowthIndex && _wheatState == WheatState.Seedling)
         {
             SwitchState(WheatState.Harvestable);
             IsHarvested = false;
         }
-        _growTimer = _timeToGrow;
     }
 
     public void Harvest()
@@ -75,7 +71,7 @@ public class Wheat : MonoBehaviour
         SwitchState(WheatState.Harvested);
         _growthIndex = -1;
         IsHarvested = true;
-        objectPool.SpawnFromPool("WheatHay", transform.position + Vector3.up, Quaternion.identity, gameObject);
+        _objectPool.SpawnFromPool("WheatHay", transform.position + Vector3.up, Quaternion.identity, gameObject);
         _harvestFX.Play();
     }
 

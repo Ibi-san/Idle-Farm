@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Harvesting : MonoBehaviour
@@ -15,6 +13,5 @@ public class Harvesting : MonoBehaviour
     {
         if (other.CompareTag("Scythe"))
             _wheat.Harvest();
-            
     }
 }

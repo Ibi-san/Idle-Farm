@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+[RequireComponent(typeof(TMP_Text))]
 public class WheatScore : MonoBehaviour
 {
     [SerializeField] private  TMP_Text _tmp;
@@ -14,7 +13,6 @@ public class WheatScore : MonoBehaviour
         _tmp = GetComponent<TMP_Text>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         _tmp.text = _wheatCollecting.CurrentWheatCollected.ToString() + "/" + _wheatCollecting.MaxWheatCollected.ToString();

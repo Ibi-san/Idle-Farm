@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(MeshRenderer))]
 public class HaySize : MonoBehaviour
 {
     private WheatCollecting _wheatCollecting;
@@ -17,9 +16,7 @@ public class HaySize : MonoBehaviour
     private void Update()
     {
         if (_wheatCollecting.CurrentWheatCollected > 0)
-        {
             _hayRender.enabled = true;
-        }
         else _hayRender.enabled = false;
 
         if (_wheatCollecting.CurrentWheatCollected == 0)

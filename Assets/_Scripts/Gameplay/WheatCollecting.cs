@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class WheatCollecting : MonoBehaviour
@@ -17,13 +15,13 @@ public class WheatCollecting : MonoBehaviour
     private MoneyManagement _moneyManagement;
     [SerializeField] private int _blockCost = 15;
     [SerializeField] private GameObject _hayPool;
-    ObjectPool objectPool;
+    private ObjectPool _objectPool;
 
     [SerializeField] private MoneySpawner _moneySpawner;
     private void Start()
     {
         _moneyManagement = _player.GetComponent<MoneyManagement>();
-        objectPool = ObjectPool.Instance;
+        _objectPool = ObjectPool.Instance;
     }
 
     private void Update()
@@ -54,7 +52,7 @@ public class WheatCollecting : MonoBehaviour
             _sellOnDelay = true;
             _delayTimer = _delayTime;
             _moneyManagement.ChangeMoney(_blockCost);
-            objectPool.SpawnFromPool("WheatHay", transform.position + Vector3.up * 2f + Vector3.left, Quaternion.identity, _hayPool);
+            _objectPool.SpawnFromPool("WheatHay", transform.position + Vector3.up * 2f + Vector3.left, Quaternion.identity, _hayPool);
             _moneySpawner.SpawnIcon();
         }
         _wheatCollected = Mathf.Clamp(_wheatCollected + amount, 0, _wheatCollectedLimit);

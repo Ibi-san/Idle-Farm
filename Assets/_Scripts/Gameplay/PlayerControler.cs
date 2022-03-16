@@ -39,21 +39,17 @@ public class PlayerControler : MonoBehaviour
 
     private void Update()
     {
-
         _groundedPlayer = _controller.isGrounded;
+
         if (_groundedPlayer && _playerVelocity.y < 0)
-        {
             _playerVelocity.y = 0f;
-        }
 
         Vector2 movementInput = _playerInput.PlayerMain.Move.ReadValue<Vector2>();
         Vector3 move = new Vector3(movementInput.x, 0f, movementInput.y);
         _controller.Move(move * Time.deltaTime * _movementSpeed);
 
         if (move != Vector3.zero)
-        {
             gameObject.transform.forward = move;
-        }
 
         _playerVelocity.y += _gravityValue * Time.deltaTime;
         _controller.Move(_playerVelocity * Time.deltaTime);
@@ -68,9 +64,7 @@ public class PlayerControler : MonoBehaviour
         _animator.SetFloat("Speed", _playerSpeed);
 
         if (_playerInput.PlayerMain.Harvest.triggered)
-        {
             _animator.SetTrigger("Harvest");
-        }
     }
 
 
